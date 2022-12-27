@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".two">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#B505AC"
+        android:gravity="">
+
+
+        <TextView
+            android:layout_width="247dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="15dp"
+            android:text="user"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:hint="seach by keyword or product id"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="110dp"
+        android:background="#EF96EE"
+        android:text="    Add delivery location to get extra discount >>>"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="595dp"
+        android:layout_marginTop="150dp">
+
+        <RelativeLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="595dp"
+            android:orientation="vertical"
+            android:layout_marginStart="30dp">
+
+
+            <ImageButton
+                android:id="@+id/line1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@color/black"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/kurti1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line1"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="banita fabulour kurtis " />
+            <TextView
+                android:id="@+id/dl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kurti1"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:text="$ 200   4%off" />
+
+            <TextView
+                android:id="@+id/fd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dl1"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:text="free delivery" />
+
+            <ImageButton
+                android:id="@+id/line2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/line1"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="-160dp"
+                android:background="@color/black" />
+
+
+            <TextView
+                android:id="@+id/kurti2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line2"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="9dp"
+                android:text="abhisarika ensemble kurtis "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dl2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kurti2"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="5dp"
+                android:text="$ 500   40%off"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/fd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dl2"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="3dp"
+                android:text="free delivery"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/line9"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/line2"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="91dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/kurti4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line9"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="9dp"
+                android:text=" men pent"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dl4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kurti4"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="1dp"
+                android:text="$ 525   40%off"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:id="@+id/fd4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dl4"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="0dp"
+                android:text="free delivery"
+                android:textColor="@color/black" />
+
+
+            <ImageButton
+                android:id="@+id/line10"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/line4"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="97dp"
+                android:background="@color/black" />
+
+            <ImageButton
+                android:id="@+id/line11"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/line4"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="345dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/kurti9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line11"
+                android:layout_marginTop="11dp"
+                android:layout_marginStart="10dp"
+                android:text=" kids"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dl9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kurti9"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="1dp"
+                android:text="$ 525   40%off"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:id="@+id/fd9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dl9"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="0dp"
+                android:text="free delivery"
+                android:textColor="@color/black" />
+
+
+            <ImageButton
+                android:id="@+id/line3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/black" />
+
+            <ImageButton
+                android:id="@+id/line4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/line3"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/black" />
+
+
+            <TextView
+                android:id="@+id/kurti3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line4"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="alisha pretty kurtis" />
+            <TextView
+                android:id="@+id/dl3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kurti3"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:text="$ 250   4%off" />
+
+
+            <TextView
+                android:id="@+id/fd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dl3"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:text="free delivery"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/line5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/line4"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="114dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/kurti5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line5"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="hudi" />
+            <TextView
+                android:id="@+id/dl5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kurti5"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:text="$ 250   4%off" />
+
+            <TextView
+                android:id="@+id/fd5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dl5"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:text="free delivery" />
+
+
+            <TextView
+                android:id="@+id/kurti7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line5"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="9dp"
+                android:text="frocks"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dl7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kurti7"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="1dp"
+                android:text="$ 525   40%off"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:id="@+id/fd7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dl7"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="0dp"
+                android:text="free delivery"
+                android:textColor="@color/black" />
+
+
+            <ImageButton
+                android:id="@+id/line7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/line5"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="93dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/kurti10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line7"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="-2dp"
+                android:text=" men pent  ( fanki )"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/dl10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kurti10"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:text="$ 525   40%off"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/fd10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dl10"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="free delivery"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>
